@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000; font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+
+}
+.nav-link{
+    font-family: poppins;
+    color: #FFC312 !important;
+  }
+  .navbar-dark{
+    background: #333;
+  }
+  .navbar-dark .navbar-brand{
+    color: #FFC312;
+    
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+  }
+  .navbar-dark .navbar-brand h1{
+    color: #FFC312;
+  
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  #navbarSupportedContent ul {
+           
+    list-style: none;
+    
+  padding: 0;
+  margin: 0;
+  }
+  #navbarSupportedContent ul li{
+  padding-left: 5px;
+  line-height: 40px;
+    
+  }
+  
+  #navbarSupportedContent ul li a:link,#navbarSupportedContent ul li a:visited{
+    padding: 10px 15px ;
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-weight:bold ;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  nav {
+    
+    
+    line-height: 40px;
+    
+    border-bottom: 1px solid lightblue;
+    
+  }
+  
+  
+  @media(max-width:800px){
+    
+    .navbar-dark{
+        background: #333;
+        
+    }
+    
+    
+    #navbarSupportedContent ul{
+        line-height: 20px;
+    }
+   
+  }
+  
+  .dropdown{
+    margin-left: -30px;
+  }
+  .dropdown a:hover{
+    background: rgb(209, 199, 199);
+  }
+
+
+  .my-card
+  {
+      position:absolute;
+      left:45%;
+      top:-40px;
+      border-radius:50%;
+  }
+/* USER PROFILE PAGE */
+/* USER PROFILE PAGE */
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card.hovercard .card-background {
+    height: 200px;
+}
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 200px;
+    height: 200px;
+    max-width: 130px;
+    max-height: 130px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+
+
+
+.dynamicTile .col-sm-2.col-xs-4{
+    padding:5px;
+}
+
+.dynamicTile .col-sm-4.col-xs-8{
+    padding:5px;
+}
+
+
+
+.btn-light{
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 5px;
+     font-family: 'Uchen', serif;
+    color: #A3248F;
+    font-weight:  bolder;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+ .btn-light:hover{
+    background: #A3248F;
+    color: white;
+ }
+ .btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }

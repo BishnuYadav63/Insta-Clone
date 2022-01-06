@@ -1,0 +1,238 @@
+body{
+    margin: auto;
+}
+header{
+    background: url("vishnu.jpg");
+    background-image: linear-gradient(rgba(30,63,0.6) ,rgba(30,60,56,0.6)),url("photographyPhoto2.jpg");
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    background-position: center center;
+}
+.banner-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.nav-link{
+    font-family: poppins;
+    color: #FFC312 !important;
+}
+.banner-text div{
+    font-family: poppins;
+    color:  #fff !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+}
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+.banner-btn a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.banner-btn a.active{
+    background: #FFC312;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-dark .navbar-brand{
+    color: #FFC312;
+
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+}
+.navbar-dark .navbar-brand h1{
+    color: #FFC312;
+
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+}
+
+#navbarSupportedContent ul {
+           
+    list-style: none;
+    
+  padding: 0;
+  margin: 0;
+}
+#navbarSupportedContent ul li{
+padding-left: 5px;
+line-height: 40px;
+    
+}
+
+#navbarSupportedContent ul li a:link,#navbarSupportedContent ul li a:visited{
+    padding: 10px 15px ;
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-weight:bold ;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.text-area{
+    font-size: 90px;
+    
+    font-weight: bold;
+}
+.text-area span{
+    color: #FFC312;
+    opacity: 0; 
+    transform:translate(0,-100px) rotate(360deg) scale(0);
+    animation: animate 5s forwards;
+}
+.text-area span{
+    display: inline-block;
+}
+.text-area span:nth-of-type(2){
+    animation-delay: .1s;
+}
+.text-area span:nth-of-type(3){
+    animation-delay: .2s;
+}
+.text-area span:nth-of-type(4){
+    animation-delay: .3s;
+}
+.text-area span:nth-of-type(5){
+    animation-delay: .4s;
+}
+.text-area span:nth-of-type(6){
+    animation-delay: .5s;
+}
+.text-area span:nth-of-type(7){
+    animation-delay: .6s;
+}
+.text-area span:nth-of-type(8){
+    animation-delay: .7s;
+}
+@keyframes animate{
+    30%{
+        transform: translate(0,-50%) rotate(180deg) scale(1);
+    }
+    60%{
+        transform: translate(0,20%) rotate(0deg) scale(0.8);
+    }
+    100%{
+        transform: translate(0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+@media(max-width:800px){
+    .banner-text p{
+        display: none;
+    }
+    .navbar-dark{
+        background: #333;
+        
+    }
+    .text-area{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    
+    #navbarSupportedContent ul{
+        line-height: 20px;
+    }
+   
+}
+@media(max-width: 786px){
+
+    .banner-btn a{
+      margin: 0 auto;
+      margin-bottom: 60px;
+      z-index : 1000;
+    }
+  }
+
+
+.container{
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 190px;
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    .card-footer a{
+        color: #FFC312; 
+    }
+    .card-footer a:hover{
+        color: white; 
+        
+    }
+    .dropdown{
+        margin-left: -30px;
+      }
+      .dropdown a:hover{
+        background: rgb(209, 199, 199);
+      }

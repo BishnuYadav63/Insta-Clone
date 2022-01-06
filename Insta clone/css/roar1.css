@@ -1,0 +1,87 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000; font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    
+
+}
+
+
+.nav-link{
+    font-family: poppins;
+    color: #FFC312 !important;
+}
+
+.navbar-dark .navbar-brand{
+    color: #FFC312;
+
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+}
+.navbar-dark .navbar-brand h1{
+    color: #FFC312;
+
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+}
+nav {
+  
+    width: 100%;
+    line-height: 60px;
+    z-index: 1000;
+    border-bottom: 1px solid lightblue;
+    margin-bottom: 20px;
+  }
+
+#navbarSupportedContent ul {
+           
+    list-style: none;
+    
+  padding: 0;
+  margin: 0;
+}
+#navbarSupportedContent ul li{
+padding-left: 5px;
+line-height: 40px;
+    
+}
+
+#navbarSupportedContent ul li a:link,#navbarSupportedContent ul li a:visited{
+    padding: 10px 15px ;
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-weight:bold ;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+@media(max-width:800px){
+    
+    .navbar-dark{
+        background: #333;
+        
+    }
+    
+    
+    #navbarSupportedContent ul{
+        line-height: 20px;
+    }
+   
+}
+
+.dropdown{
+    margin-left: -30px;
+  }
+  .dropdown a:hover{
+    background: rgb(209, 199, 199);
+  }
