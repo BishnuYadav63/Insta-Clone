@@ -1,0 +1,178 @@
+body{
+    background:#F8F7DF;
+    margin:0;
+    padding:0;
+}
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.nav-link{
+    font-family: poppins;
+    color: #FFC312 !important;
+  }
+  .navbar-dark{
+    background: #333;
+  }
+  .navbar-dark .navbar-brand{
+    color: #FFC312;
+    
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+  }
+  .navbar-dark .navbar-brand h1{
+    color: #FFC312;
+  
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  #navbarSupportedContent ul {
+           
+    list-style: none;
+    
+  padding: 0;
+  margin: 0;
+  }
+  #navbarSupportedContent ul li{
+  padding-left: 5px;
+  line-height: 40px;
+    
+  }
+  
+  #navbarSupportedContent ul li a:link,#navbarSupportedContent ul li a:visited{
+    padding: 10px 15px ;
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-weight:bold ;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  nav {
+    
+    
+    line-height: 40px;
+    
+    border-bottom: 1px solid lightblue;
+    
+  }
+  
+  
+  @media(max-width:800px){
+    
+    .navbar-dark{
+        background: #333;
+        
+    }
+    
+    
+    #navbarSupportedContent ul{
+        line-height: 20px;
+    }
+   
+  }
+  
+  .dropdown{
+    margin-left: -30px;
+  }
+  .dropdown a:hover{
+    background: rgb(209, 199, 199);
+  }
+
+   
+
+   
